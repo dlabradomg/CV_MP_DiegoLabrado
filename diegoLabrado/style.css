@@ -1,0 +1,285 @@
+.general {
+    background-color: rgb(174, 229, 238);
+    background: radial-gradient(circle, rgba(174, 229, 238, 1) 0%, rgba(40, 129, 235, 1) 100%);
+    padding: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+.encabezado {
+    text-align: justify;
+    font-size: larger;
+    color: #eef0f3;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Merriweather', serif;
+    font-size: x-large;
+    gap: 20px;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.encabezado:hover{
+    box-shadow: 0 0 #fff;
+    transform: translateY(-20px);
+  }
+
+
+
+  .fotoDni {
+    height: px;
+    width: 100px;
+}
+
+.fotoDni {display: flex;
+    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+
+    & img {
+        width: 200px;
+        height: 170px;
+         }
+}
+
+.trainingCompetencies {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    gap: 20px;
+}
+
+.btTraining>div>img {
+    width: 60px;
+}
+
+.elementoTraining {
+    display: flex;
+    gap: 10px;
+}
+
+.btTraining {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btTraining:hover {
+
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #eef0f3;
+    border: solid 2px #0066cc;
+}
+
+
+.btCompetencies>div>img {
+    width: 60px;
+}
+
+.elementoCompetencies {
+    display: flex;
+    gap: 10px;
+}
+
+
+.btCompetencies {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+
+
+}
+
+.btCompetencies:hover {
+
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #eef0f3;
+    border: solid 2px #0066cc;
+}
+
+
+
+.experienceOther {
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.btExperience>div>img {
+    width: 60px;
+}
+
+.elementoExperience {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.btExperience {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btExperience:hover {
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #eef0f3;
+    border: solid 2px #0066cc;
+}
+
+#moreExp{cursor: pointer; flex-direction: row;
+}
+
+
+.programacion {
+    border-radius: 10px;
+}
+
+.btMoreInfo>div>img {
+    width: 60px;
+}
+
+.elementoMoreInfo {
+    display: flex;
+    gap: 10px;
+}
+
+.btMoreInfo {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btMoreInfo:hover {
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #eef0f3;
+    border: solid 2px #0066cc;
+}
+
+.btContact>div>img {
+    width: 70px;
+}
+
+.elementoContactUs {
+    display:flex;
+    width: 70px;
+    gap: 10px;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.imgCopiar{width: 25px;
+    margin: 5px;}
+
+
+
+#texto{flex-direction: row;}
+
+.btContact {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    border-radius: 1000px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btContact:hover {
+
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #eef0f3;
+    border: solid 2px #0066cc; box-shadow: 0 0 #fff;
+    transform: translateY(10px);
+  }
+
+.correo{cursor: pointer;}
+
+.all and (max-with:500px) {
+    .mark {
+        min-width: 500px;
+    }
+}
+
