@@ -277,9 +277,8 @@
 
 .correo{cursor: pointer;}
 
-.all and (max-with:500px) {
+@media all and (max-width: 500px) {
     .mark {
-        min-width: 500px;
+        max-width: 100%;
     }
 }
-
