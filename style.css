@@ -279,6 +279,16 @@
 
 @media all and (max-width: 500px) {
     .mark {
-        max-width: 100%;
+        max-width: 100%;  
     }
+    .fotoDni{
+        width: 50px;
+        aspect-ratio: 382/508;
+    }
+
+    .general{
+        padding: 10px;
+
+    }
+    
 }
