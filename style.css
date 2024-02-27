@@ -6,6 +6,9 @@
     float: right;
 }
 
+body{
+    margin: 0;
+}
 .encabezado {
     text-align: justify;
     font-size: larger;
@@ -35,18 +38,15 @@
   }
 
 
-
-.fotoDni {
-    height: px;
-    width: 100px;
-}
-
 .fotoDni {display: flex;
     box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
-
+    height: auto;
+    width:200px;
+    aspect-ratio: 382/508;
     & img {
-        width: 200px;
-        height: 170px;
+        height: auto;
+        width:100%;
+        aspect-ratio: 382/508;
          }
 }
 
@@ -287,19 +287,24 @@
 
     }
 
+    .fotoDni >img{
+        width:100%;
+        height: auto;
+    }
+
     
-.trainingCompetencies {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    gap: 20px;
-}
-.experienceOther {
-    display: flex;
-    margin: 5px;
-    gap: 20px;
-    flex-direction: column;
-}
+    .trainingCompetencies {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        gap: 20px;
+    }
+    .experienceOther {
+        display: flex;
+        margin: 5px;
+        gap: 20px;
+        flex-direction: column;
+    }
 
     
 }
