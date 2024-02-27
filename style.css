@@ -281,14 +281,25 @@
     .mark {
         max-width: 100%;  
     }
-    .fotoDni{
-        width: 50px;
-        aspect-ratio: 382/508;
-    }
 
     .general{
         padding: 10px;
 
     }
+
+    
+.trainingCompetencies {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    gap: 20px;
+}
+.experienceOther {
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+    flex-direction: column;
+}
+
     
 }
