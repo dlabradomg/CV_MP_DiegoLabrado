@@ -6,6 +6,9 @@
     float: right;
 }
 
+body{
+    margin: 0;
+}
 .encabezado {
     text-align: justify;
     font-size: larger;
