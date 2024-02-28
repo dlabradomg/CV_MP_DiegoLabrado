@@ -270,8 +270,8 @@ body{
     transition: 1000ms;
     padding: 10px 50px;
     transform: translateY(-0px);
-    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
-    color: #eef0f3;
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
+    color: #626465;
     border: solid 2px #0066cc; box-shadow: 0 0 #fff;
     transform: translateY(10px);
   }
