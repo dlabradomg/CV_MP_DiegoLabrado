@@ -6,6 +6,7 @@
     float: right;
 }
 
+
 body{
     margin: 0;
 }
@@ -277,6 +278,10 @@ body{
   }
 
 .correo{cursor: pointer;}
+
+#viewDiv{ 
+    
+}
 
 @media all and (max-width: 500px) {
     .mark {
