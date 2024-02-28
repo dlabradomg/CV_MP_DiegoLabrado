@@ -235,7 +235,7 @@ body{
     width: 70px;
     gap: 10px;
     justify-content: space-around;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .imgCopiar{width: 25px;
     margin: 5px;}
@@ -263,6 +263,7 @@ body{
     align-items: center;
     box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
 }
+
 
 .btContact:hover {
 
