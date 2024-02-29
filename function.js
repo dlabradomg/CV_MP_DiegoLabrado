@@ -1,12 +1,3 @@
-//párrafo encabezado
-
-let parrafoEncabezado = document.createElement('p')
-
-parrafoEncabezado.appendChild(nodo)
-
-let seccionEncabezado = document.querySelector('.encabezado')
-
-seccionEncabezado.appendChild(parrafoEncabezado)
 
 //copiar el correo al portapales de mi equipo
 
