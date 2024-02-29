@@ -1,15 +1,16 @@
 .general {
-    background-color: rgb(174, 229, 238);
-    background: radial-gradient(circle, rgba(174, 229, 238, 1) 0%, rgba(40, 129, 235, 1) 100%);
-    padding: 200px;
+    background: rgb(215, 231, 221);
+    background: radial-gradient(circle, rgba(215, 231, 221, 1) 1%, rgba(225, 228, 235, 1) 63%);
+    padding: 150px;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
 }
 
 
-body{
+body {
     margin: 0;
 }
+
 .encabezado {
     text-align: justify;
     font-size: larger;
@@ -18,12 +19,11 @@ body{
     flex-direction: row;
     font-family: 'Merriweather', serif;
     font-size: x-large;
-    gap: 20px;
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
+    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     padding: 10px 30px;
     border: 2px solid #0066cc;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px;
     transition: 1000ms;
     transform: translateY(0);
     display: flex;
@@ -33,22 +33,24 @@ body{
     box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
 }
 
-.encabezado:hover{
+.encabezado:hover {
     box-shadow: 0 0 #fff;
     transform: translateY(-20px);
-  }
+}
 
 
-.fotoDni {display: flex;
+.fotoDni {
+    display: flex;
     box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
     height: auto;
-    width:200px;
+    width: 200px;
     aspect-ratio: 382/508;
+
     & img {
         height: auto;
-        width:100%;
+        width: 100%;
         aspect-ratio: 382/508;
-         }
+    }
 }
 
 .trainingCompetencies {
@@ -71,12 +73,11 @@ body{
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     font-weight: 0;
     font-size: 14px;
-    color:  #626465;
+    color: #626465;
     background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     padding: 10px 30px;
     border: 2px solid #0066cc;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px;
     transition: 1000ms;
     transform: translateY(0);
     display: flex;
@@ -90,8 +91,8 @@ body{
     transition: 1000ms;
     padding: 10px 50px;
     transform: translateY(-0px);
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
-    color:  #626465;
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
+    color: #626465;
     border: solid 2px #0066cc;
 }
 
@@ -111,11 +112,10 @@ body{
     font-weight: 0;
     font-size: 14px;
     color: #626465;
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     padding: 10px 30px;
     border: 2px solid #0066cc;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px;
     transition: 1000ms;
     transform: translateY(0);
     display: flex;
@@ -131,7 +131,7 @@ body{
     transition: 1000ms;
     padding: 10px 50px;
     transform: translateY(-0px);
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     color: #626465;
     border: solid 2px #0066cc;
 }
@@ -161,11 +161,10 @@ body{
     font-weight: 0;
     font-size: 14px;
     color: #626465;
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     padding: 10px 30px;
     border: 2px solid #0066cc;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px;
     transition: 1000ms;
     transform: translateY(0);
     display: flex;
@@ -178,12 +177,14 @@ body{
     transition: 1000ms;
     padding: 10px 50px;
     transform: translateY(-0px);
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     color: #626465;
     border: solid 2px #0066cc;
 }
 
-#moreExp{cursor: pointer; flex-direction: row;
+#moreExp {
+    cursor: pointer;
+    flex-direction: row;
 }
 
 
@@ -205,11 +206,10 @@ body{
     font-weight: 0;
     font-size: 14px;
     color: #626465;
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     padding: 10px 30px;
     border: 2px solid #0066cc;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px;
     transition: 1000ms;
     transform: translateY(0);
     display: flex;
@@ -222,7 +222,7 @@ body{
     transition: 1000ms;
     padding: 10px 50px;
     transform: translateY(-0px);
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     color: #626465;
     border: solid 2px #0066cc;
 }
@@ -232,31 +232,33 @@ body{
 }
 
 .elementoContactUs {
-    display:flex;
+    display: flex;
     width: 70px;
     gap: 10px;
     justify-content: space-around;
-    font-weight: bold; 
+    font-weight: bold;
 }
-.imgCopiar{width: 25px;
-    margin: 5px;}
+
+.imgCopiar {
+    width: 25px;
+    margin: 5px;
+}
 
 
 
-#texto{flex-direction: row;}
+#texto {
+    flex-direction: row;
+}
 
 .btContact {
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     font-weight: 0;
     font-size: 14px;
     color: #626465;
-    background: linear-gradient(90deg,  #9af5a5f6 0%, #48eac7 100%);
+    background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     padding: 10px 30px;
     border: 2px solid #0066cc;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    -webkit-border-radius: 1000px;
-    -moz-border-radius: 1000px;
-    border-radius: 1000px;
     transition: 1000ms;
     transform: translateY(0);
     display: flex;
@@ -273,38 +275,40 @@ body{
     transform: translateY(-0px);
     background: linear-gradient(90deg, #9af5a5f6 0%, #48eac7 100%);
     color: #626465;
-    border: solid 2px #0066cc; box-shadow: 0 0 #fff;
+    border: solid 2px #0066cc;
+    box-shadow: 0 0 #fff;
     transform: translateY(10px);
-  }
-
-.correo{cursor: pointer;}
-
-#viewDiv{ 
-    
 }
+
+.correo {
+    cursor: pointer;
+}
+
+#viewDiv {}
 
 @media all and (max-width: 500px) {
     .mark {
-        max-width: 100%;  
+        max-width: 100%;
     }
 
-    .general{
+    .general {
         padding: 10px;
 
     }
 
-    .fotoDni >img{
-        width:100%;
+    .fotoDni>img {
+        width: 100%;
         height: auto;
     }
 
-    
+
     .trainingCompetencies {
         display: flex;
         flex-direction: column;
         margin: 5px;
         gap: 20px;
     }
+
     .experienceOther {
         display: flex;
         margin: 5px;
@@ -312,5 +316,5 @@ body{
         flex-direction: column;
     }
 
-    
+
 }
