@@ -41,7 +41,7 @@ body {
 
 .fotoDni {
     display: flex;
-    box-shadow: 12px 7px 20px 0px rgba(0, 0, 0, 0.75);
+    
     height: auto;
     width: 200px;
     aspect-ratio: 382/508;
