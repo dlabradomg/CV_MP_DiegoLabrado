@@ -2,7 +2,7 @@
 
 let parrafoEncabezado = document.createElement('p')
 
-let nodo = document.createTextNode('Puedes econtrar más información en los cuadros de abajo')
+let nodo = document.createTextNode()
 
 parrafoEncabezado.appendChild(nodo)
 
