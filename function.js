@@ -20,7 +20,7 @@ document.querySelector(".correo").addEventListener('click', function () {
 
 let enlace = document.createElement('a')
 
-enlace.href = 'https://es.linkedin.com/'
+enlace.href = 'https://www.linkedin.com/in/diego-labrado-infante/'
 
 enlace.innerHTML = 'Encuéntrame en Linkedin'
 
